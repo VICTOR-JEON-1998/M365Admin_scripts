@@ -1,7 +1,7 @@
 # Import-Excel 모듈을 사용하여 엑셀에서 사용자 목록 가져오기
 Import-Module ImportExcel
 
-$excelFilePath = "C:\Users\D001_2240052\Documents\test.xlsx"  # 엑셀 파일 경로
+$excelFilePath = "test.xlsx"  # 엑셀 파일 경로
 $userList = Import-Excel -Path $excelFilePath
 
 # 라이선스 SKU ID 매핑 (예시)
